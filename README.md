@@ -13,10 +13,9 @@ A polished, cross-platform desktop cybersecurity utility that evaluates password
 | Feature | Description |
 |---|---|
 | **Real-time analysis** | Strength updates instantly as you type |
-| **Show/Hide toggle** | 👁 button reveals or masks the password |
-| **Strength meter** | Colour-coded progress bar (Red → Orange → Yellow → Green) |
-| **Requirements checklist** | ✔ / ✖ for length, uppercase, lowercase, digit, special character |
-| **Suggestions** | Actionable tips when the password is weak |
+| **Show/Hide & Copy** | Reveal/mask password and copy to clipboard |
+| **Strength meter** | 5-segment colour-coded bar (Red → Orange → Yellow → Green) |
+| **Requirements checklist** | ✅ / ❌ for length, uppercase, lowercase, digit, special character |
 | **Clear / Reset** | One-click reset to start over |
 
 ## 🎨 Design
