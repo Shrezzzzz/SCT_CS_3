@@ -1,42 +1,17 @@
-# 🔒 PassGuard — Password Strength Checker
+# SCT_CS_3 — PassGuard: Password Strength Checker
 
-A polished, cross-platform desktop cybersecurity utility that evaluates password strength in real time.
+A GUI-based password strength analysis tool built with Python and CustomTkinter, developed as Task 03 of the SkillCraft Technology Cyber Security Internship.
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
-![CustomTkinter](https://img.shields.io/badge/UI-CustomTkinter-green)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
+## Features
 
----
+- Real-time password strength evaluation as you type
+- 5-segment colour-coded strength meter (Red → Orange → Yellow → Green)
+- Security requirements checklist for length, uppercase, lowercase, digit, and special characters
+- Show/Hide toggle to reveal or mask the password
+- Copy password to clipboard functionality
+- One-click reset to clear the input and start over
 
-## ✨ Features
-
-| Feature | Description |
-|---|---|
-| **Real-time analysis** | Strength updates instantly as you type |
-| **Show/Hide & Copy** | Reveal/mask password and copy to clipboard |
-| **Strength meter** | 5-segment colour-coded bar (Red → Orange → Yellow → Green) |
-| **Requirements checklist** | ✅ / ❌ for length, uppercase, lowercase, digit, special character |
-| **Clear / Reset** | One-click reset to start over |
-
-## 🎨 Design
-
-- Clean **Apple-inspired light theme**
-- White card on soft-gray background
-- Rounded corners, subtle borders
-- **Inter** typography (falls back to system sans-serif)
-- Responsive centered dashboard layout
-
-## 🔐 Strength Levels
-
-| Score | Label | Colour |
-|-------|------------|---------|
-| 0–1 | Very Weak | 🔴 Red |
-| 2 | Weak | 🟠 Orange |
-| 3 | Moderate | 🟡 Yellow |
-| 4 | Strong | 🟢 Green |
-| 5 | Very Strong | 🩵 Teal |
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 SCT_CS_3/
@@ -45,11 +20,11 @@ SCT_CS_3/
 └── README.md           # This file
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- **Python 3.8+** (with `tkinter` — included by default on Windows & macOS; on Linux install `python3-tk`)
+- Python 3.8+ (with `tkinter` — included by default on Windows & macOS; on Linux install `python3-tk`)
 
 ### Installation
 
@@ -69,22 +44,20 @@ python app.py
 > sudo apt install python3-tk   # Debian/Ubuntu/Kali
 > ```
 
-## 🖥️ Cross-Platform Compatibility
+## Cross-Platform Compatibility
 
-| OS | Status |
-|---|---|
-| Windows 10 / 11 | ✅ Works out of the box |
-| Ubuntu / Kali Linux | ✅ Works (install `python3-tk` if missing) |
-| macOS (Intel & Apple Silicon) | ✅ Works out of the box |
+- **Windows 10 / 11:** Works out of the box
+- **Ubuntu / Kali Linux:** Works (install `python3-tk` if missing)
+- **macOS (Intel & Apple Silicon):** Works out of the box
 
 No OS-specific paths or APIs are used. Only standard Python libraries + CustomTkinter.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python 3
-- **UI Framework:** [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
+- **UI Framework:** CustomTkinter
 - **Standard Library:** `re`, `string`
 
-## 📄 License
+## License
 
 This project is provided for educational purposes as part of SkillCraft Technology internship tasks.
