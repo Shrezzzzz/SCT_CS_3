@@ -1,5 +1,5 @@
 """
-PassGuard v2.4 Core — Password Strength Analysis Tool
+PassGuard — Password Strength Analysis Tool
 A polished, cross-platform desktop cybersecurity utility built with CustomTkinter.
 Works on Windows 10/11, Linux (Ubuntu/Kali), and macOS without code changes.
 """
@@ -131,7 +131,7 @@ class PassGuardApp(ctk.CTk):
     def __init__(self) -> None:
         super().__init__()
 
-        self.title("PassGuard v2.4 Core")
+        self.title("PassGuard")
         self.geometry("780x720")
         self.minsize(700, 680)
         self.configure(fg_color=BG_COLOR)
@@ -169,10 +169,7 @@ class PassGuardApp(ctk.CTk):
             left_bar, text="PassGuard", font=(FONT_FAMILY, 15, "bold"),
             text_color=TEXT_PRIMARY,
         ).pack(side="left")
-        ctk.CTkLabel(
-            left_bar, text="v2.4 Core", font=(FONT_FAMILY, 12),
-            text_color=TEXT_MUTED,
-        ).pack(side="left", padx=(6, 0))
+
 
         # Right: badge
         badge = ctk.CTkFrame(topbar, fg_color=GREEN_BADGE_BG, corner_radius=12, height=28)
